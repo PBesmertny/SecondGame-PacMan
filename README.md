@@ -6,5 +6,5 @@ My second game, considerably more ambitious than the first. Now with AI!
 2. Run mainScreen.html in browser.
 3. Use WASD to move.
 4. Enjoy!
-5. '''
+'''
 
