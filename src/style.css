@@ -1,0 +1,80 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  /* we want the grid to be 28 x 28 and each square is a 28x28 */
+  width: 784px;
+  height: 784px;
+  border: solid black; 
+  background-color: grey;
+}
+
+.grid div{
+  width: 28px;
+  height: 28px;
+}
+
+.pac-dot{
+  background-color: grey;
+  background-image: url("Food.png");
+  background-size: cover;
+}
+
+.wall{
+  background-color: black;
+}
+
+.power-pellet{
+  background-color: grey;
+  background-image: url("PowerPellet.gif");
+  background-size: cover;
+}
+
+.pac-man{
+  background-color: grey;
+  background-image: url("PM.gif");
+  background-size: cover;
+}
+
+.inky{
+  background-color: grey;
+  background-image: url("Inky.gif");
+}
+
+.blinky{
+  background-color: grey;
+  background-image: url("Blinky.gif");
+}
+
+.pinky{
+  background-color: grey;
+  background-image: url("Pinky.gif");
+}
+
+.clyde{
+  background-color: grey;
+  background-image: url("Clyde.gif");
+}
+
+.scared-ghost{
+  background-color: grey;
+  background-image: url("Yummy.gif");
+}
+
+
+
+#scoreDisplay{
+  width: 784px;
+  padding: 5px;
+  border: solid black 5px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+#score{
+  padding: 10px;
+}
